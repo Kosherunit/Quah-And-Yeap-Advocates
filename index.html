@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Quah and Yeap Advocates and Solicitors (Notary Public)</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header class="topbar border-bottom bg-white">
+			<nav class="container navbar navbar-expand-lg" aria-label="Primary Navigation">
+				<a class="navbar-brand d-flex align-items-center gap-2" href="#home" aria-label="Homepage">
+					<img src="Img/QnY Logo Upscaled 3.png" alt="Quah & Yeap logo" width="200" height="200" loading="lazy">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navMain">
+					<ul class="navbar-nav ms-auto align-items-lg-center">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#about" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong data-i18n="nav.about">About Us</strong></a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#about" data-i18n="nav.overview">Overview</a></li>
+								<li><a class="dropdown-item" href="#values" data-i18n="nav.values">Our Values</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong data-i18n="nav.services">Legal Services</strong></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#faq" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong data-i18n="nav.faq">FAQ</strong></a>
+							<ul class="dropdown-menu">
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#lawyers" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong data-i18n="nav.lawyers">Our Lawyers</strong></a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#why-us" data-i18n="nav.why-us">Why Choose Us</a></li>
+								<li><a class="dropdown-item" href="#lawyers" data-i18n="nav.profiles">Profiles</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#testimonials" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong data-i18n="nav.testimonials">Testimonials</strong></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="achievements.html"><strong data-i18n="nav.achievements">Achievements</strong></a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="https://www.mm2hmalaysia.com.my/" target="_blank" rel="noopener noreferrer">
+							  <strong data-i18n="nav.achievements">Perfect Homes MM2H</strong>
+							</a>
+						  </li>
+						<!-- Language Selector -->
+						<li class="nav-item dropdown">
+							<div class="language-selector" role="button" tabindex="0" aria-haspopup="true" aria-expanded="false" aria-label="Select language">
+								<span class="lang-button" id="currentLang"> 
+									<span class="lang-flag">🇺🇸</span>
+									<span class="lang-code">EN</span>
+									<span class="lang-arrow">▼</span>
+								</span>
+								<ul class="lang-dropdown" role="menu" aria-labelledby="currentLang">
+									<li role="none">
+										<a href="/en" class="lang-option" role="menuitem" data-lang="en" aria-label="English">
+											<span class="lang-flag">🇺🇸</span>
+											<span class="lang-code">EN</span>
+										</a>
+									</li>
+									<li role="none">
+										<a href="/cn" class="lang-option" role="menuitem" data-lang="cn" aria-label="Chinese">
+											<span class="lang-flag">cn</span>
+											<span class="lang-code">中文</span>
+										</a>
+									</li>
+									<li role="none">
+										<a href="/bm" class="lang-option" role="menuitem" data-lang="bm" aria-label="Bahasa Malaysia">
+											<span class="lang-flag">🇲🇾</span>
+											<span class="lang-code">BM</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<main id="home">
+			<section class="hero-banner text-white position-relative">
+				<div class="container py-5">
+					<div class="row align-items-center g-4">
+						<div class="col-12 col-lg-7">
+							<h1 class="display-5 fw-semibold fade-in" data-i18n="hero.title">Professional Legal Firm in Penang and Kuala Lumpur, Malaysia</h1>
+							<p class="lead fade-in" data-i18n="hero.subtitle">Quah & Yeap Advocates and Solicitors (Notary Public)</p>
+							<a href="https://wa.me/60123456789" target="_blank" rel="noopener" class="btn btn-primary mt-2" data-i18n="hero.cta.whatsapp">Book your appointment here!</a>
+						</div>
+						<div class="col-12 col-lg-5">
+							<div class="gallery fade-in" role="region" aria-label="Hero gallery">
+								<div class="gallery-track">
+									<img class="gallery-img" src="Img/20221004105847946_Guide_penang_main.jpg" alt="City skyline" loading="lazy">
+									<img class="gallery-img" src="Img/b4-new.jpg" alt="Office" loading="lazy">
+									<img class="gallery-img" src="Img/services-780-900.jpg" alt="Handshake" loading="lazy">
+									<img class="gallery-img" src="Img/uniqueness-780-900-1.jpg" alt="Strategy" loading="lazy">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero-overlay"></div>
+			</section>
+
+			<section id="about" class="py-5 bg-white">
+				<div class="container">
+					<div class="row justify-content-center text-center mb-4">
+						<div class="col-12 col-lg-8">
+							<img src="Img/QnY Logo Upscaled 3.png" width="300" height="300" class="mb-3" alt="Firm emblem" loading="lazy">
+							<h2 class="h3" data-i18n="about.title">Values of our Law Firm | Penang and Kuala Lumpur</h2>
+							<p class="text-body-secondary" data-i18n="about.content"><strong>Quah & Yeap Advocates & Solicitors (Notary Public)</strong> is a renowned law firm that has been providing exceptional legal services since its establishment on 15th July 1995. With a team of highly skilled attorneys and staff, the firm has gained a reputation for its unwavering commitment to excellence and client satisfaction.
+
+								Led by the dynamic Senior Partner, <strong>Mr. Alfred Yeap Dah Long</strong>, Quah & Yeap Advocates & Solicitors has become a force to be reckoned with in the legal industry.<br> Their expertise and leadership have propelled the firm to new heights, attracting top-tier clients and complex cases.
+								
+								The firm boasts a team of four legal assistants who play a crucial role in supporting the attorneys. <strong>Ms. Maureen Tay Huey Ming, Ms. Lim Mei Hoey, and Ms. Lim Xin Wan</strong> bring their unique skills and dedication to the table, ensuring the smooth functioning of the firm.</p>
+						</div>
+					</div>
+					<div id="values" class="row g-4">
+						<div class="col-md-4">
+							<div class="feature-card h-100 p-4 text-center">	
+								<h3 class="h6 mb-2" data-i18n="values.honest">Honest and Efficient</h3>
+								<p class="mb-0">At <strong>Quah & Yeap Advocates and Solicitors (Notary Public)</strong>, our mission is simple — to deliver honest, efficient, and reliable legal solutions for all visa and immigration matters. We believe in transparency, timely execution, and integrity at every step, ensuring our clients experience a seamless transition when starting their new chapter in Malaysia.</p>
+							</div>
+						</div>	
+						<div class="col-md-4">
+							<div class="feature-card h-100 p-4 text-center">
+								<h3 class="h6 mb-2" data-i18n="values.professional">Professional Legal Guidance</h3>
+								<p class="mb-0">At <strong>Quah & Yeap Advocates and Solicitors (Notary Public)</strong>, we are committed to providing professional legal guidance rooted in experience, clarity, and care. Our mission is to help clients navigate complex visa and immigration matters with confidence — offering sound advice, strategic direction, and steadfast support every step of the way.</p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="feature-card h-100 p-4 text-center">
+								<h3 class="h6 mb-2" data-i18n="values.results">Proven Results</h3>
+								<p class="mb-0">We measure success through tangible outcomes built on strategy, precision, and trust. Every case reflects our dedication to achieving meaningful resolutions grounded in law and integrity. Our proven record stands as a testament to our commitment—delivering consistent results that uphold justice, fairness, and client confidence through <strong>Quah & Yeap Advocates and Solicitors (Notary Public)</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="why-us" class="py-5 bg-light">
+				<div class="container">
+					<div class="row g-4 align-items-center">
+						<div class="col-md-7">
+							<h3 class="h4 mb-3" data-i18n="why-us.title">Why Choose Us?</h3>
+							<ul class="list-unstyled space-list">
+								<li data-i18n="why-us.point1"><strong>Led by the dynamic Senior Lawyer Mr. Alfred Yeap Dah Long. Quah & Yeap Advocates & Solicitors (Notary Public) has become a force to be reckoned with in the legal industry. Their expertise and leadership have propelled the firm to new heights, attracting top-tier clients and complex cases.</strong></li>
+								<li data-i18n="why-us.point2"><strong>With over three decades of combined experience, they have developed a reputation for delivering exceptional legal services across a wide range of practice areas. Mr. Alfred Yeap Dah Long, the senior partner, brings a wealth of experience in corporate law, real estate, and litigation.</strong></li>
+								<li data-i18n="why-us.point3"><strong>The firm's commitment to excellence extends beyond the courtroom. Quah & Yeap Advocates & Solicitors places great emphasis on fostering a supportive and inclusive work culture. The partners and legal assistants work closely together, creating a cohesive team that thrives on collaboration and mutual respect.</strong></li>
+								<li data-i18n="why-us.point4"><strong>What sets Quah & Yeap Advocates & Solicitors (Notary Public) apart is it's unwavering commitment to providing exceptional legal services. The attorneys at the firm are known for their deep understanding of the law, meticulous attention to detail, and strategic thinking. They leave no stone unturned in their pursuit of justice for their clients.</strong></li>
+								<li data-i18n="why-us.point5"><strong>Our firm has procured a professional indemnity insurance policy for the mandatory limit (under Bar Council Scheme) of indemnity of RM500,000.00 for each and every claim and topup indemnity of RM10,000,000.00 at any one claim and RM50,000,000.00 in the aggregrated which is well above the basic limit required by the Bar Council.</strong></li>
+							</ul>
+						</div>
+						<div class="col-md-5 text-center">
+							<img src="Img/lawyer group photo.jpg" class="img-fluid rounded-3 shadow-sm" alt="Lead lawyer portrait" loading="lazy">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="services" class="py-5 bg-white">
+				<div class="container">
+					<h3 class="h4 text-center mb-4" data-i18n="services.title">All Legal Services</h3>
+					<div class="row g-4">
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="service-card h-100">
+								<img src="Img/coneyancing service.jpg" class="service-img" alt="Corporate advisory" loading="lazy">
+								<div class="p-3">
+									<h4 class="h6 mb-1" data-i18n="services.conveyancing.title">Conveyancing Services</h4>
+									<p class="mb-0 small" data-i18n="services.conveyancing.desc">At Quah & Yeap Advocates and Solicitors, we bring over 30 years of experience in seamless property transactions. Our team handles every aspect — from housing and mortgage agreements to purchases, loans, and LPPSA applications — with precision and care. We ensure your property dealings are legally sound, efficiently executed, and tailored to safeguard your best interests.</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="service-card h-100">
+								<img src="Img/mina-rad-qFSQFSmfZkA-unsplash.jpg" class="service-img" alt="Litigation" loading="lazy">
+								<div class="p-3">
+									<h4 class="h6 mb-1" data-i18n="services.litigation.title">Civil Litigation</h4>
+									<p class="mb-0 small" data-i18n="services.litigation.desc">We understand that clients are looking for reputable law firms and experienced litigation lawyers to resolve their disputes. The usual ways to resolve disputes are litigation (civil litigation and criminal litigation). Alternative dispute resolution methods include arbitration and mediation. Our dynamic law firm with adept litigation lawyers in Malaysia offers a wide range of legal services on dispute resolution and can assist you with this.</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="service-card h-100">
+								<img src="Img/services-780-900 full landscape.jpg" class="service-img" alt="Real estate" loading="lazy">
+								<div class="p-3">
+									<h4 class="h6 mb-1" data-i18n="services.realestate.title">Real Estate</h4>
+									<p class="mb-0 small" data-i18n="services.realestate.desc">Whether it is will writing or getting court orders for a grand of probate, letter of administration, small estate administration, trust, or power of solicitor, we as a legal firm in Penang and Kuala Lumpur can help you with our professional legal advocates.</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3">
+							<article class="service-card h-100">
+								<img src="Img/pexels-sora-shimazaki-5668473.jpg" class="service-img" alt="Notary services" loading="lazy">
+								<div class="p-3">	
+									<h4 class="h6 mb-1" data-i18n="services.notary.title">Notary Services</h4>
+									<p class="mb-0 small" data-i18n="services.notary.desc">With over 30 years of trusted legal experience in Penang and Kuala Lumpur, Quah & Yeap specializes in professional Notary Public services. Our decades of expertise ensure accuracy, efficiency, and reliability in certifying documents for local and international use — delivering exceptional results and peace of mind to individuals, businesses, and institutions.</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+			<section id="lawyers" class="py-5 bg-light">
+				<div class="container">
+					<h3 class="h4 text-center mb-4" data-i18n="lawyers.title">Our Lawyers</h3>
+					<!-- flex-based wrapper so odd last row centers nicely -->
+					<div class="row g-4 lawyers-row" role="list">
+						<div class="col-12 col-md-6 col-lg-3" role="listitem">
+							<article class="service-card h-100 fade-in">
+								<img src="Img/lawyer 1.jpg" class="lawyer-img" alt="Lead partner portrait" loading="lazy">
+								<div class="p-3">
+									<h4 class="h6 mb-1" data-i18n="lawyers.yeap.name">Mr Alfred Yeap Dah Long</h4>
+									<ul>
+										<li data-i18n="lawyers.yeap.qual1"><strong>L.L.B. (Hons) (UCL) London</strong></li>
+										<li data-i18n="lawyers.yeap.qual2"><strong>Lincoln's Inn, Barrister (29th July 1993).</strong></li>
+										<li data-i18n="lawyers.yeap.qual3"><strong>Master of Business Administration, MBA (Washington) U.S.A.</strong></li>
+									</ul>
+									<p class="mb-0 small" data-i18n="lawyers.yeap.bio">Mr. Alfred Yeap Dah Long has been active in legal practice more than sixteen (16) years and is conversant with civil litigation in particular contractual disputes, bankruptcy, foreclosure proceedings, debt recovery cases, tort cases, winding-up proceedings, family law cases, conveyancing and banking & financial institutions legal loans documentation estate administration.<br> Mr. Alfred Yeap is well equipped in banking matters and familiar with foreign banking and property laws.<br> He is a senior lawyer with the Malaysian Bar with effect from 5th December 2001. In March 2005, he has just obtained his Master of Business Administration from Washington International University, U.S.A he is a member of Disciplinary Board of Bar Council since 1st June 2008.</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3" role="listitem">
+							<article class="service-card h-100 fade-in">
+								<img src="Img/lawyer 2.jpg" class="lawyer-img" alt="Second partner portrait" loading="lazy">
+								<div class="p-3">
+									<h4 class="h6 mb-1" data-i18n="lawyers.tay.name">Ms Tay Huey Ming</h4>
+									<ul>
+									<li data-i18n="lawyers.tay.qual1"><strong>Bachelors of Laws (LLB Honours) (University of London)</strong></li>
+									<li data-i18n="lawyers.tay.qual2"><strong>Certificate of Legal Practice (CLP) (2004).</strong></li>
+								</ul>
+									<p class="mb-0 small" data-i18n="lawyers.tay.bio">Ms Tay Huey Ming was admitted as an Advocate & Solicitor of the High Court of Malaya on the 30th day of September 2005.<br> She practiced as a legal Assistant in M/s B.C. The & Yeoh from the 3rd day of October 2005 and thereafter as a partner in M/s C.M.Teh & Co from the 1st May 2007 to the 30th day of June 2010, prior her practicing as a Legal Assistant in our firm.<br> She is experienced in the areas of law concerning the enforcement of lending securities, contractual disputes, subdivided buildings, debt recovery, succession in estates matters, family and conveyancing.</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3" role="listitem">
+							<article class="service-card h-100 fade-in">
+								<img src="Img/lawyer 3.jpg" class="lawyer-img" alt="Senior associate portrait" loading="lazy">
+								<div class="p-3">
+									<h4 class="h6 mb-1" data-i18n="lawyers.lim1.name">Ms Jocelyn Lim Xin Wan</h4>
+									<ul>
+										<li data-i18n="lawyers.lim1.qual1"><strong>Bachelors of Laws LLB (Honours) (University of Malaya)</strong></li>
+									    <li data-i18n="lawyers.lim1.qual2"><strong>Admitted as Advocates and Solicitors of High Court of Malaya (2019)</strong></li>
+									</ul>
+									<p class="mb-0 small" data-i18n="lawyers.lim1.bio">Ms. Lim Xin Wan obtained her Bachelor of Laws (LL.B. Hons) from the University of Malaya in 2018 and was admitted as an Advocate & Solicitor of the High Court of Malaya in September 2019.<br> A valued member of the firm since her pupillage, she brings over five years of experience across litigation, family, estate, and migration (MM2H) matters.<br> Ms. Lim is well-versed in estate planning, will drafting, probate applications, and contractual documentation.<br> Combining rigorous legal insight with practical solutions, she is recognised for her professionalism, meticulous preparation, and client-focused approach. She currently serves as a Partner of the firm.</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3" role="listitem">
+							<article class="service-card h-100 fade-in">
+								<img src="Img/lawyer 4.jpg" class="lawyer-img" alt="Associate portrait" loading="lazy">
+								<div class="p-3">
+									<h4 class="h6 mb-1" data-i18n="lawyers.lim2.name">Ms Lim Mei Hoey</h4>
+									<ul>
+										<li data-i18n="lawyers.lim2.qual1"><strong>Bachelors of Laws (LL. Honours)(UUM)</strong></li>
+										<li data-i18n="lawyers.lim2.qual2"><strong>First Class Honours Nothern UUM (2017).</strong></li>
+									</ul>
+									<p class="mb-0 small" data-i18n="lawyers.lim2.bio">Ms. Lim Mei Hoey obtained her Bachelor of Laws (LL.B. Hons) with First Class Honours from Northern University of Malaysia in 2017. She completed her pupillage with the firm and was admitted as an Advocate & Solicitor of the High Court of Malaya in October 2018. With over five years of experience, she has developed strong litigation skills through regular court appearances and advises clients on estate matters, wills, contracts, and migration issues. Her diverse practice spans litigation, family law, conveyancing, and MM2H advisory. Ms. Lim is currently a Partner of the firm.</p>
+								</div>
+							</article>
+						</div>
+						<div class="col-12 col-md-6 col-lg-3" role="listitem">
+							<article class="service-card h-100 fade-in">
+								<img src="Img/lim ann gie profile photo.jpg" class="lawyer-img" alt="Associate portrait" loading="lazy">
+								<div class="p-3">
+									<h4 class="h6 mb-1" data-i18n="lawyers.lim2.name">Ms Lim Ann Gie (Kuala Lumpur Branch)</h4>
+									<ul>
+										<li data-i18n="lawyers.lim2.qual2"><strong>Bachelor of Laws (LL.B Hons) from Universiti Kebangsaan Malaysia (UKM) 2014</strong></li>
+									</ul>
+									<p class="mb-0 small" data-i18n="lawyers.lim2.bio">Ms. Lim Ann Gie has been part of our legal practice for over eight years and was admitted as a Partner on 1 January 2021.<br> She specializes in conveyancing, real estate, corporate, and banking matters, with extensive experience in sale and purchase agreements, tenancy, wills, and loan documentation for both consumer and corporate clients.<br>Ms. Lim holds an LL.B (Hons) from Universiti Kebangsaan Malaysia (UKM) and was admitted as an Advocate and Solicitor of the High Court of Malaya in 2015 after completing her pupillage with Messrs Halim Hong & Quek.
+
+									</p>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		
+
+			<section id="testimonials" class="py-5 bg-white" aria-label="Client testimonials">
+				<div class="container">
+					<h3 class="h4 text-center mb-4" data-i18n="testimonials.title">What Our Customers Say</h3>
+					<div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" aria-roledescription="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<figure class="text-center mx-auto" style="max-width: 760px;">
+									<blockquote class="blockquote"><p class="mb-3" data-i18n="testimonials.testimonial1.text">It is indeed a blessing I was introduced to the professional legal team of <strong>Quah & Yeap Advocates and Solicitors (Notary Public)</strong>, After the first interaction
+
+										The professional team handle my situation with flying colors, all the way from Consultation to Engagement, it was done in a smooth journey.
+										
+										The team's due diligence, research, and hard work in my case helped me view my case from different perspectives. Based on this new understanding, I can take proper actions to safeguard my children's interests. The road ahead is clearer now.
+										
+										I highly recommend <strong>Quah & Yeap Advocates & Solicitors</strong> if you are faced with any legal issue or legal battle. He can help dissect, analyze, and lay out steps or plans of action.</p></blockquote><br>
+									<figcaption class="blockquote-footer"><strong data-i18n="testimonials.testimonial1.author">Ms Amanda Cheong</strong></figcaption>
+								</figure>		
+							</div>
+							<div class="carousel-item">
+								<figure class="text-center mx-auto" style="max-width: 760px;">
+									<blockquote class="blockquote"><p class="mb-3" data-i18n="testimonials.testimonial2.text"><strong>Quah & Yeap Advocates & Solicitors (Notary Public)</strong> is a law firm that has been so accommodating and more important knowledgeable with all my commercial and corporate legal needs.
+
+										Giving me and my associates professional legal advise as we set up our new start up adventure. The lawyers were very patient and detailed with their explaining, which helped us a lot with our partnership agreement that is fair for all parties.
+										
+										Definitely recommended for professional conveyancing for any law advises. They are the right law firm to engage with if you are staying in Penang Island or Kuala Lumpur.</p></blockquote><br>
+									<figcaption class="blockquote-footer"><strong data-i18n="testimonials.testimonial2.author">Mr Nik Kimie Mohamad Rahman Abdul</strong></figcaption>
+								</figure>
+							</div>
+							<div class="carousel-item">
+								<figure class="text-center mx-auto" style="max-width: 760px;">
+									<blockquote class="blockquote"><p class="mb-3" data-i18n="testimonials.testimonial3.text">"I recently relocated from the UK to Malaysia, and <strong>Quah & Yeap Advocates & Solicitors (Notary Public)</strong> and <strong>Perfect Homes MM2H</strong> made the entire visa and immigration process seamless. Their professionalism, attention to detail, and clear legal advice were second to none. Thanks to their expert guidance, I'm now happily settled in beautiful Penang with my family. Highly recommended!"</p></blockquote><br>
+									<figcaption class="blockquote-footer"><strong data-i18n="testimonials.testimonial3.author">Mr Gottfried V.Anderson</strong></figcaption>
+								</figure>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" aria-label="Previous testimonial"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>
+						<button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" aria-label="Next testimonial"><span class="carousel-control-next-icon" aria-hidden="true"></span></button>
+					</div>
+				</div>
+			</section>
+			<!-- Google Map Interactive -->
+			<section id="location" class="py-5 bg-white">
+				<div class="container">
+					<div class="row g-4">
+						<div class="col-md-4">
+							<h4 class="h6" data-i18n="location.title">Locate Our Lawyer Firm</h4>
+							<p class="mb-2 small" data-i18n="location.desc">No. 18-27-A, Gurney Tower<br>
+								No. 18-27-A, Gurney Tower, Persiaran Gurney<br>
+								10250 Penang, Malaysia<br>
+								Tel: 04-3712333<br>
+								Email: <strong>email@quah-yeap.com 
+									quahyeap@gmail.com 
+									alfredyeap@quah-yeap.com<br></strong></p>
+						</div>
+						<div class="col-md-8">
+							<div class="map-embed rounded-3 fade-in" role="region" aria-label="Interactive map showing Quah And Yeap Advocates and Solicitors location"></div>	
+							<noscript>
+								<div class="map-fallback rounded-3">
+									<iframe
+										title="Map to Quah And Yeap Advocates and Solicitors"
+										aria-label="Map directions to Quah And Yeap Advocates and Solicitors at Gurney Tower, Georgetown"
+										width="100%"
+										height="100%"
+										style="border:0"
+										allowfullscreen=""
+										loading="lazy"
+										referrerpolicy="no-referrer-when-downgrade"
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.9152148811104!2d100.31410317557209!3d5.429849420878495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac3a6d92ab683%3A0x2256fcd339d3b97e!2sGurney%20Tower!5e0!3m2!1sen!2smy!4v1760346284826!5m2!1sen!2smy">
+									</iframe>
+								</div>
+								<p class="small mt-2 mb-0"><strong>Quah And Yeap Advocates and Solicitors (Notary Public)</strong><br>Gurney Tower, Georgetown, 10250 George Town, Pulau Pinang</p>
+							</noscript>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="faq" class="py-5 bg-light">
+				<div class="container">
+					<h3 class="h4 text-center mb-4" data-i18n="faq.title">Frequently asked questions</h3>
+					<div class="accordion" id="faqAccordion">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="q1h"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1"><strong data-i18n="faq.q1.question">How much is the fee for the lawyer service?</strong></button></h2>
+							<div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1h" data-bs-parent="#faqAccordion"><div class="accordion-body" data-i18n="faq.q1.answer">During your initial consultation, our lawyer will provide clear guidance on how we can assist with your legal matter. Once you're satisfied with our approach, we'll outline the applicable fees and charges upfront. Our fees are determined by the nature and complexity of your case, as well as the time required for completion. We prioritise transparency at every stage, ensuring you're fully informed of any potential future costs before proceeding.</div></div>
+						</div>
+						<div class="accordion-item" id="fees">
+							<h2 class="accordion-header" id="q2h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2"><strong data-i18n="faq.q2.question">How soon will my case be resolved?</strong></button></h2>
+							<div id="q2" class="accordion-collapse collapse" aria-labelledby="q2h" data-bs-parent="#faqAccordion"><div class="accordion-body" data-i18n="faq.q2.answer">Certain matters may require a court order, while others can be resolved without one. During your initial consultation, our solicitors will assess your situation and advise you on the appropriate legal steps. If you're seeking professional legal assistance or searching for a trusted Penang law firm or lawyer near me, we invite you to contact us. Our team at Quah & Yeap Advocates and Solicitors is ready to guide you with clarity, professionalism, and genuine commitment to achieving the best outcome for your case.</div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="q3h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3"><strong data-i18n="faq.q3.question">Why should I engage you as my lawyer?</strong></button></h2>
+							<div id="q3" class="accordion-collapse collapse" aria-labelledby="q3h" data-bs-parent="#faqAccordion"><div class="accordion-body" data-i18n="faq.q3.answer">At Quah & Yeap Advocates and Solicitors, we take the time to truly understand your concerns before representing you. Guided by our core values of Value, Experience, and Integrity, we provide honest, strategic legal advice tailored to your best interests. Our qualified lawyers, recognized under the Legal Profession Act 1976, ensure every client receives professional, ethical, and value-driven service. As members of the Malaysian Bar Council and Lawyers Global, we are committed to delivering trusted legal representation with care and confidence.</div></div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="q4h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4"><strong data-i18n="faq.q4.question">What should I prepare for a consultation?</strong></button></h2>
+							<div id="q4" class="accordion-collapse collapse" aria-labelledby="q4h" data-bs-parent="#faqAccordion"><div class="accordion-body" data-i18n="faq.q4.answer">To help us serve you effectively, please bring all relevant documents, agreements, or correspondence related to your matter. Prepare a brief summary of your concerns and key questions so we can understand your situation clearly. At Quah & Yeap Advocates and Solicitors, we value your time and aim to provide clarity, comfort, and confidence from the very first meeting. With Value, Experience, and Integrity at the heart of our practice, we ensure each consultation is guided by honesty, professionalism, and genuine care for your legal needs.</div></div>
+						</div>
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="q5h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q5" aria-expanded="false" aria-controls="q5"><strong data-i18n="faq.q5.question">Will I have to go to the Court?</strong></button></h2>
+							<div id="q5" class="accordion-collapse collapse" aria-labelledby="q5h" data-bs-parent="#faqAccordion"><div class="accordion-body" data-i18n="faq.q5.answer">Certain matters may require a court order, while others can be resolved without one. During your initial consultation, our solicitors will assess your situation and advise you on the appropriate legal steps. If you're seeking professional legal assistance or searching for a trusted Penang law firm or lawyer near me, we invite you to contact us. Our team at Quah & Yeap Advocates and Solicitors is ready to guide you with clarity, professionalism, and genuine commitment to achieving the best outcome for your case.</div></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="clients" class="py-5 bg-white clients-section" aria-labelledby="clients-title">
+				<div class="container">
+					<h2 id="clients-title" class="h4 text-center mb-4">Our Panels</h2>
+			
+					<ul class="clients-grid" role="list" aria-label="Client logos and descriptions">
+						<li class="clients-item" role="listitem">
+							<button type="button" class="client-card" aria-expanded="false" data-key="clients.client1">
+								<div class="client-logo" aria-hidden="true">
+									<img src="Img/lexis-logo.png" alt="Client 1 logo" loading="lazy">
+								</div>
+								<div class="client-meta">
+									<h3 class="client-title" data-key="clients.client1.title">Grand Lexis Group</h3>
+									<p class="client-blurb" data-key="clients.client1.blurb">Our long-standing client with Lexis Group Hotels includes providing comprehensive legal services for major developments such as Lexis Suites, Grand Lexis Water Homes, and the iconic Hibiscus Port Dickson.</p>
+								</div>
+							</button>
+						</li>
+			
+						<li class="clients-item" role="listitem">
+							<button type="button" class="client-card" aria-expanded="false" data-key="clients.client2">
+								<div class="client-logo" aria-hidden="true">
+									<img src="Img/kl-metro-logo.png" alt="Client 2 logo" loading="lazy">
+								</div>
+								<div class="client-meta">
+									<h3 class="client-title" data-key="clients.client2.title">Kuala Lumpur Metro Group</h3>
+									<p class="client-blurb" data-key="clients.client2.blurb">Collaborating with Kuala Lumpur Metro Group, we provide strategic legal solutions for property and infrastructure ventures across Malaysia. Our role focuses on ensuring compliance, minimizing risk, and supporting successful project delivery through dependable legal oversight.</p>
+								</div>
+							</button>
+						</li>
+			
+						<li class="clients-item" role="listitem">
+							<button type="button" class="client-card" aria-expanded="false" data-key="clients.client3">
+								<div class="client-logo" aria-hidden="true">
+									<img src="Img/UOBbank.png" alt="Client 3 logo" loading="lazy">
+								</div>
+								<div class="client-meta">
+									<h3 class="client-title" data-key="clients.client3.title">United Overseas Bank (UOB)</h3>
+									<p class="client-blurb" data-key="clients.client3.blurb">As a trusted legal partner to UOB Bank, we deliver advisory and documentation services for mortgage, overdraft, and trade financing facilities. Each engagement reflects our commitment to regulatory compliance, accuracy, and long-term financial partnership excellence.</p>
+								</div>
+							</button>
+						</li>
+			
+						<li class="clients-item" role="listitem">
+							<button type="button" class="client-card" aria-expanded="false" data-key="clients.client4">
+								<div class="client-logo" aria-hidden="true">
+									<img src="Img/public bank logo.png" alt="Client 4 logo" loading="lazy">
+								</div>
+								<div class="client-meta">
+									<h3 class="client-title" data-key="clients.client4.title">Public Bank Berhad</h3>
+									<p class="client-blurb" data-key="clients.client4.blurb">As one of Malaysia’s leading financial institutions, Public Bank Berhad has entrusted Quah & Yeap Advocates and Solicitors (Notary Public) to deliver dependable legal support for financing facilities, ensuring each transaction meets the highest standards of accuracy, compliance, and client confidence.</p>
+								</div>
+							</button>
+						</li>
+			
+						<li class="clients-item" role="listitem">
+							<button type="button" class="client-card" aria-expanded="false" data-key="clients.client5">
+								<div class="client-logo" aria-hidden="true">
+									<img src="Img/AGM-logo-blue-768x225.png" alt="Client 5 logo" loading="lazy">
+								</div>
+								<div class="client-meta">
+									<h3 class="client-title" data-key="clients.client5.title">AGM Group</h3>
+									<p class="client-blurb" data-key="clients.client5.blurb">Involved in high-value corporate and property ventures, AGM Group engaged our firm for legal advisory on merger and land acquisition matters, including the Bukit Kayu Hitam duty-free development. Our expertise ensured every stage was executed with precision, compliance, and strategic foresight.</p>
+								</div>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<section class="cta-section bg-dark text-white" id="contact" aria-label="Contact form">
+			<div class="container py-5">
+				<div class="row g-4">
+					<div class="col-12 col-lg-6">
+						<h3 class="h3 mb-4 text-center" data-i18n="cta.title">Send Us A Message</h3>
+						<form class="contact-form" id="contactForm">
+							<div class="mb-3">
+								<label for="name" class="form-label" data-i18n="cta.name">NAME</label>
+								<input type="text" class="form-control" id="name" data-i18n-placeholder="cta.name" placeholder="Name" required>
+							</div>
+							<div class="mb-3">
+								<label for="mobile" class="form-label" data-i18n="cta.mobile">MOBILE NUMBER</label>
+								<input type="tel" class="form-control" id="mobile" data-i18n-placeholder="cta.mobile" placeholder="Mobile Number" required>
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label" data-i18n="cta.email">EMAIL</label>
+								<input type="email" class="form-control" id="email" data-i18n-placeholder="cta.email" placeholder="Email" required>
+							</div>
+							<div class="mb-3">
+								<label for="location" class="form-label" data-i18n="cta.location">LOCATION</label>
+								<select class="form-select" id="location" required>
+									<option value="">Select Office</option>
+									<option value="penang">Penang Office</option>
+									<option value="kl">Kuala Lumpur Office</option>
+								</select>
+							</div>
+							<div class="mb-4">
+								<label for="message" class="form-label" data-i18n="cta.message">MESSAGE</label>
+								<textarea class="form-control" id="message" rows="4" data-i18n-placeholder="cta.message" placeholder="Message" required></textarea>
+							</div>
+							<div class="text-center">
+								<button type="submit" class="btn btn-danger btn-lg px-5" data-i18n="cta.send">Send</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="address-panel">
+							<div class="row g-4">
+								<div class="col-12 col-md-6">
+									<h4 class="h6 mb-3">PENANG OFFICE (Head Office)</h4>
+									<address class="small mb-3">
+										No. 18-27-A, Gurney Tower<br>
+										No. 18-27-A, Gurney Tower, Persiaran Gurney<br>
+										10250 Penang, Malaysia<br>
+										Tel: 04-3712333<br>
+										Email: <strong>email@quah-yeap.com 
+											quahyeap@gmail.com 
+											alfredyeap@quah-yeap.com<br></strong> 
+									</address>
+								</div>
+								<div class="col-12 col-md-6">
+									<h4 class="h6 mb-3">KUALA LUMPUR BRANCH</h4>
+									<address class="small mb-3">
+										Lot 1001-1002A, 10th Floor<br>
+										Wisma new Asia<br>
+										Jalan Raja Chulan<br>
+										50200 Kuala Lumpur, Malaysia<br>
+										Tel: 03-2072 3725/26<br>
+										Email: <strong>email@quah-yeap.com 
+											quahyeap@gmail.com 
+											alfredyeap@quah-yeap.com<br></strong> 
+									</address>
+								</div>
+							</div>
+							<div class="text-center mt-4">
+								<div class="d-flex gap-3 justify-content">
+									<a class="btn btn-outline-light" href="https://wa.me/60123456789" target="_blank" rel="noopener" aria-label="Chat on WhatsApp" data-i18n="cta.whatsapp">WhatsApp For Consultation</a>
+									<a class="btn btn-light" href="mailto:general@qylaw.com" aria-label="Send email" data-i18n="cta.email-btn">Email for Consultation</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="site-footer border-top bg-white" aria-label="Footer">
+			<div class="container py-4 d-flex flex-column flex-lg-row justify-content-between align-items-center gap-3">
+				<p class="mb-0 small">© <span id="year"></span> Quah & Yeap. All rights reserved.</p>
+				<ul class="nav">
+					<li class="nav-item"><a class="nav-link px-2" href="#about" data-i18n="footer.about">About</a></li>
+					<li class="nav-item"><a class="nav-link px-2" href="#services" data-i18n="footer.services">Services</a></li>
+					<li class="nav-item"><a class="nav-link px-2" href="#testimonials" data-i18n="footer.testimonials">Testimonials</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
