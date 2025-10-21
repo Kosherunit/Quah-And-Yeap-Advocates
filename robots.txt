@@ -1,0 +1,12 @@
+# robots.txt for Quah & Yeap Official Website
+User-agent: *
+Allow: /
+
+# Disallow unnecessary system or temporary files
+Disallow: /assets/
+Disallow: /images/
+Disallow: /scripts/
+Disallow: /styles/
+
+# Sitemap location
+Sitemap: https://quahyeap.github.io/sitemap.xml
